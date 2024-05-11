@@ -1,0 +1,103 @@
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/736x/bb/79/dc/bb79dc2a09df287a66a1dfdf436a37ab.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {    
+    text-align: center;  
+    max-width: auto;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);    
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+   
+}
+section label,p,input,select,th{
+    font-size: 20px;
+    color: black;
+}
+table{
+    color: #ccc;
+}
+.lido{
+    font-size: 20px;
+    font-style: blue;
+    text-align:justify;
+    background-color: rgb(134, 82, 44);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+   
+}
+.fue{
+    text-align: left;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow:  2px 2px 4px rgb(87, 41, 160);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+table {
+    width: 100%; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
